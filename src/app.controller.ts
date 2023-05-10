@@ -12,7 +12,10 @@ export class AppController {
       name: 'Uchechukwu Azubuko',
       country: 'Nigeria 788',
       city: 'Belgorod',
-      email: 'box@wcut.ru'
+      email: 'box@wcut.ru',
+      phone: "+ 7 4722 34-22-44", 
+      streed: "Zhelezhyakova 15",
+      code: "308023"
     };
   }
 }
