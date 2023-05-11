@@ -8,10 +8,13 @@ export class ProductsController {
   @Get()
   getAll(){
     return {
-      name: 'Phone Senao 458',
+      id: 1,
+      name: 'Senao 458 R Ultra',
       country: 'Russia',
       city: 'Moscow',
-      email: 'info@radiotel.info'
+      email: 'info@radiotel.info',
+      prise: 888,
+      delivery: true
     };
   }
 

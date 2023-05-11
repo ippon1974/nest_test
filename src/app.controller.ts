@@ -7,7 +7,6 @@ export class AppController {
 
   @Get()
   getHello() {
-    // return "hi Vovan how are you?"
     return {
       name: 'Uchechukwu Azubuko',
       country: 'Nigeria 788',
@@ -15,7 +14,7 @@ export class AppController {
       email: 'box@wcut.ru',
       phone: "+ 7 4722 34-22-44", 
       streed: "Zhelezhyakova 15",
-      code: "308023"
+      code: "3080235557"
     };
   }
 }
